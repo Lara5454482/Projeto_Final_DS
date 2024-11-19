@@ -1,7 +1,7 @@
 ﻿
-namespace Projeto_Final.Formularios
+namespace Projeto_Final.Formularios.Login
 {
-    partial class frmUsuarios
+    partial class EditarUsuario
     {
         /// <summary>
         /// Required designer variable.
@@ -32,7 +32,7 @@ namespace Projeto_Final.Formularios
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "frmUsuarios";
+            this.Text = "EditarUsuario";
         }
 
         #endregion
