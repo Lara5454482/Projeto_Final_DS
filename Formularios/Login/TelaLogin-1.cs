@@ -16,5 +16,10 @@ namespace Projeto_Final.Formularios
         {
             InitializeComponent();
         }
+
+        private void frmUsuarios_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

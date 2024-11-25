@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Projeto_Final
+namespace Projeto_Final.Formularios.Login
 {
-    public partial class Login : Form
+    public partial class GerenciarUsuarios : Form
     {
-        public Login()
+        public GerenciarUsuarios()
         {
             InitializeComponent();
         }
