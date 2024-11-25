@@ -64,12 +64,6 @@
     <Compile Include="Formularios\Login\GerenciarUsuarios.Designer.cs">
       <DependentUpon>GerenciarUsuarios.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Login.Designer.cs">
-      <DependentUpon>Login.cs</DependentUpon>
-    </Compile>
     <Compile Include="Formularios\Login\TelaLogin-1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +78,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formularios\Login\CadastrarUsuario.resx">
+      <DependentUpon>CadastrarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Login\EditarUsuario.resx">
+      <DependentUpon>EditarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Login\GerenciarUsuarios.resx">
+      <DependentUpon>GerenciarUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Login\TelaLogin-1.resx">
       <DependentUpon>TelaLogin-1.cs</DependentUpon>
     </EmbeddedResource>
