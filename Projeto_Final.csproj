@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Formularios\FrmCadastrarAlunos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmCadastrarAlunos.Designer.cs">
+      <DependentUpon>FrmCadastrarAlunos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmCadastrarProjetos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmCadastrarProjetos.Designer.cs">
+      <DependentUpon>FrmCadastrarProjetos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\Login\CadastrarUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
