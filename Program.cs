@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Projeto_Final.Formularios;
 
 namespace Projeto_Final
 {
@@ -16,7 +17,7 @@ namespace Projeto_Final
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Principal());
+            Application.Run(new FrmDetalhes());
         }
     }
 }
