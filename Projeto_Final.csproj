@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Login.cs" />
+    <Compile Include="Classes\Usuarios.cs" />
     <Compile Include="Formularios\Login\CadastrarUsuario.cs">
       <SubType>Form</SubType>
     </Compile>

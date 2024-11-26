@@ -66,6 +66,7 @@ namespace Projeto_Final.Formularios
             this.btnEntrar.TabIndex = 15;
             this.btnEntrar.Text = "ENTRAR";
             this.btnEntrar.UseVisualStyleBackColor = true;
+            this.btnEntrar.Click += new System.EventHandler(this.btnEntrar_Click);
             // 
             // txtSenha
             // 
@@ -109,7 +110,6 @@ namespace Projeto_Final.Formularios
             this.Controls.Add(this.label1);
             this.Name = "frmUsuarios";
             this.Text = "frmUsuarios";
-            this.Load += new System.EventHandler(this.frmUsuarios_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

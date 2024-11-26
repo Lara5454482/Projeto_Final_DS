@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Projeto_Final.Classes;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,34 @@ namespace Projeto_Final.Formularios.Login
         public EditarUsuario()
         {
             InitializeComponent();
+            Usuarios usuarios = new Usuarios();
+            usuarios.PesquisarPorId(Id);
+            txtId.Text = usuarios.Id.ToString();
+            txtLogin.Text = usuarios.Login;
+            txtSenha.Text = usuarios.Senha;
+            chkAtivo.Checked = usuarios.Ativo;
+            usuarios = null;
+        }
+
+        private void btnSalvar_Click(object sender, EventArgs e)
+        {
+            Usuarios usuarios = new Usuarios();
+            usuarios.Id = Convert.ToInt32(label_id.Text);
+            usuarios.Login = txtLogin.Text;
+            usuarios.Senha = txtSenha.Text;
+            usuarios.Ativo = chkAtivo.Checked;
+            usuarios.Editar();
+            usuarios = null;
+            this.Close();
+
+        }
+
+        private void btn_excluir_Click(object sender, EventArgs e)
+        {
+            Usuarios usuarios = new Usuarios();
+            usuarios.Id = Convert.ToInt32(label_id.Text);
+            usuarios.Excluir();
+            this.Close();
         }
     }
 }

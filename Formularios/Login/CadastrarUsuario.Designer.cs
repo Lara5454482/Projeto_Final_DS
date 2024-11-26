@@ -73,6 +73,7 @@ namespace Projeto_Final.Formularios.Login
             this.btnSave.TabIndex = 4;
             this.btnSave.Text = "Cadastrar";
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // txtSenha
             // 

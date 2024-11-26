@@ -58,6 +58,7 @@ namespace Projeto_Final.Formularios.Login
             this.txtPesquisar.Name = "txtPesquisar";
             this.txtPesquisar.Size = new System.Drawing.Size(261, 28);
             this.txtPesquisar.TabIndex = 3;
+            this.txtPesquisar.TextChanged += new System.EventHandler(this.txtPesquisar_TextChanged);
             // 
             // btnNovo
             // 
@@ -67,6 +68,7 @@ namespace Projeto_Final.Formularios.Login
             this.btnNovo.TabIndex = 1;
             this.btnNovo.Text = "Novo Usuário";
             this.btnNovo.UseVisualStyleBackColor = true;
+            this.btnNovo.Click += new System.EventHandler(this.btnNovo_Click);
             // 
             // label2
             // 
@@ -86,6 +88,7 @@ namespace Projeto_Final.Formularios.Login
             this.dtgridusuarios.Name = "dtgridusuarios";
             this.dtgridusuarios.Size = new System.Drawing.Size(548, 312);
             this.dtgridusuarios.TabIndex = 6;
+            this.dtgridusuarios.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgridusuarios_CellContentDoubleClick);
             // 
             // GerenciarUsuarios
             // 
